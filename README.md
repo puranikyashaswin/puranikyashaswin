@@ -1,28 +1,39 @@
-# Hi there, I'm Yashaswin Puranik 👋
+# Hello, I'm Yashaswin Puranik 👋
 
-<a href="https://www.linkedin.com/in/your-linkedin-profile/">
-  <img align="left" alt="Yashaswin's LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+<a href="https://x.com/your_twitter_handle">
+  <img align="left" alt="Yashaswin's Twitter/X" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/x.svg" />
+</a>
+<a href="https://your-blog-or-website.com">
+  <img align="left" alt="Yashaswin's Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/rss.svg" style="margin-left: 8px;" />
 </a>
 <br />
 <br />
 
-I am a Machine Learning Engineer passionate about building and deploying robust, scalable, and production-ready AI systems. My work focuses on the entire lifecycle of an ML project—from implementing core algorithms from scratch to serving them in high-performance, containerized environments.
+I'm an AI enthusiast and engineer exploring the rapidly evolving frontier of artificial intelligence. My goal is to move beyond traditional machine learning to build systems that are not just intelligent, but also practical, scalable, and capable of creating a positive impact. I believe the most powerful AI solutions are born from a deep understanding of their foundational principles and a relentless focus on production-ready engineering.
 
 ---
 
-### 🚀 About Me
+### 🚀 My Approach: From First Principles to Production
 
-I believe the best way to understand technology is to build it. My portfolio is a journey through the key pillars of modern AI engineering:
-
-* 🧠 **Core Algorithms:** I started by implementing the Transformer architecture from the ground up to solidify my understanding of the models that power today's LLMs.
-* 🔧 **Practical Applications:** I then applied this knowledge to build a real-world RAG (Retrieval-Augmented Generation) system, focusing on the critical aspect of automated evaluation to ensure quality and reliability.
-* 🚀 **Production & MLOps:** Finally, I engineered a high-performance serving engine with vLLM and created a full-stack application, demonstrating my ability to take a model from concept to a user-facing product.
+My work is a structured journey through the stack of modern AI. I start by deconstructing the core algorithms to understand *how* they work, then build robust applications, and finally, deploy them in high-performance, real-world environments. This first-principles approach ensures that the solutions I build are not just functional, but also efficient, reliable, and well-understood.
 
 ---
 
-### 🛠️ My Tech Stack
+### 🏆 My Flagship Projects: A Showcase of the AI Lifecycle
 
-Here are the technologies I'm proficient in, from core languages to specialized MLOps tools:
+These projects are milestones in my journey, each one representing a critical layer of the modern AI stack.
+
+| Project                                                                                | Description                                                                          | Core Competency Demonstrated                                     |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------- |
+| **[llm-serve-vllm](https://github.com/puranikyashaswin/llm-serve-vllm)** | A production-grade, high-performance LLM server with an OpenAI-compatible API.       | **AI Infrastructure & MLOps** |
+| **[fullstack-rag-app](https://github.com/puranikyashaswin/fullstack-rag-app)** | An interactive web app to chat with documents, built with a RAG backend.             | **Full-Stack AI Product Development** |
+| **[rag-lab-with-evals](https://github.com/puranikyashaswin/rag-lab-with-evals)** | A RAG system with an automated evaluation suite to measure performance.              | **Applied AI & Quality Assurance** |
+| **[transformer-from-scratch](https://github.com/puranikyashaswin/transformer-from-scratch)** | A pure PyTorch implementation of the "Attention Is All You Need" paper.                | **Foundational AI & Core Algorithms** |
+| **[mlops-california-housing](https://github.com/puranikyashaswin/mlops-template-ccds-mlflow)** | A professional template for reproducible ML projects with experiment tracking.       | **Reproducible Science & Engineering Discipline** |
+
+---
+
+### 🛠️ My Toolkit
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -32,21 +43,6 @@ Here are the technologies I'm proficient in, from core languages to specialized 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-### 🏆 My Flagship Projects
-
-These projects represent the core of my skills and showcase my journey as an ML Engineer.
-
-| Project                                                   | Description                                                                          | Technologies Used                                     |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------- |
-| **[llm-serve-vllm](https://github.com/puranikyashaswin/llm-serve-vllm)** | A production-grade, high-performance LLM server with an OpenAI-compatible API. | `vLLM`, `FastAPI`, `Docker`, `Locust`, `PyTorch`          |
-| **[fullstack-rag-app](https://github.com/puranikyashaswin/fullstack-rag-app)** | An interactive web app to chat with documents, built with a RAG backend.   | `Streamlit`, `LangChain`, `FAISS`, `Docker`             |
-| **[rag-lab-with-evals](https://github.com/puranikyashaswin/rag-lab-with-evals)** | A RAG system with an automated evaluation suite to measure performance.     | `RAGAs`, `LangChain`, `FAISS`, `SentenceTransformers` |
-| **[transformer-from-scratch](https://github.com/puranikyashaswin/transformer-from-scratch)** | A pure PyTorch implementation of the "Attention Is All You Need" paper.         | `PyTorch`, `NumPy`, `Jupyter`                           |
-| **[mlops-california-housing](https://github.com/puranikyashaswin/mlops-template-ccds-mlflow)** | A professional template for reproducible ML projects with experiment tracking.    | `MLflow`, `Scikit-learn`, `GitHub Actions`, `Pytest`      |
 
 ---
 
@@ -57,7 +53,10 @@ These projects represent the core of my skills and showcase my journey as an ML 
 
 ---
 
-### 📫 Connect with Me
+### 📫 Let's Connect & Build the Future
 
-- **LinkedIn**: [https://www.linkedin.com/in/your-linkedin-profile/](https://www.linkedin.com/in/your-linkedin-profile/)
-- **Email**: puranikyashaswin@gmail.com
+I'm always open to discussing new ideas, collaborating on ambitious projects, or exploring the future of AI. If you're passionate about building what's next, let's connect.
+
+- **Email**: puranikyashaswinsharma@gmail.com
+- **X (Twitter)**: [@your_twitter_handle](https://x.com/your_twitter_handle)
+- **Website/Blog**: [your-website.com](https://your-website.com)
