@@ -58,5 +58,5 @@ These projects are milestones in my journey, each one representing a critical la
 I'm always open to discussing new ideas, collaborating on ambitious projects, or exploring the future of AI. If you're passionate about building what's next, let's connect.
 
 - **Email**: puranikyashaswinsharma@gmail.com
-- **X (Twitter)**: [@your_twitter_handle](https://x.com/your_twitter_handle)
+- **X (Twitter)**: https://x.com/yashu2X
 - **Website/Blog**: [your-website.com](https://your-website.com)
