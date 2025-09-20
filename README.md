@@ -1,6 +1,6 @@
 # Hello, I'm Yashaswin Puranik 👋
 
-<a href="https://x.com/your_twitter_handle">
+<a href="https://x.com/yashu2X">
   <img align="left" alt="Yashaswin's Twitter/X" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/x.svg" />
 </a>
 <a href="https://your-blog-or-website.com">
