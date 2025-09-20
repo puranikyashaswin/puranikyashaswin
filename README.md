@@ -1,98 +1,63 @@
-<!--
-README for GitHub profile "puranikyashaswin"
-Paste this in your puranikyashaswin/README.md file
-Social media links removed as requested.
--->
+# Hi there, I'm Yashaswin Puranik 👋
 
-<h1 align="center">Hi, I'm Puranik Yashaswin Sharma 👋</h1>
-<p align="center"><b>AI/ML Explorer • Full Stack Developer • Building for a Better World</b></p>
-<p align="center">Driven by curiosity and a passion for impact, I’m exploring how AI can solve real-world problems and shape a more creative, fair, and accessible future.</p>
+<a href="https://www.linkedin.com/in/your-linkedin-profile/">
+  <img align="left" alt="Yashaswin's LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+<br />
+<br />
 
----
-
-### 🌟 About Me
-
-```text
-I'm genuinely excited to be part of the AI phase. For me, it's not just about technology—it's about building tools that empower and inspire. Every project is a chance to learn, collaborate, and push boundaries.
-```
-
-- B.Tech CSE
-- Passionate about ethical AI, open source, and making tech accessible to all
-- Always learning, always experimenting
+I am a Machine Learning Engineer passionate about building and deploying robust, scalable, and production-ready AI systems. My work focuses on the entire lifecycle of an ML project—from implementing core algorithms from scratch to serving them in high-performance, containerized environments.
 
 ---
 
-### 🧰 Toolbox
+### 🚀 About Me
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,linux,git" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,typescript,nodejs,vercel,nginx,docker" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=firebase,postgres,mongodb,redis,aws,gcp,cloudflare,figma" />
-</p>
+I believe the best way to understand technology is to build it. My portfolio is a journey through the key pillars of modern AI engineering:
+
+* 🧠 **Core Algorithms:** I started by implementing the Transformer architecture from the ground up to solidify my understanding of the models that power today's LLMs.
+* 🔧 **Practical Applications:** I then applied this knowledge to build a real-world RAG (Retrieval-Augmented Generation) system, focusing on the critical aspect of automated evaluation to ensure quality and reliability.
+* 🚀 **Production & MLOps:** Finally, I engineered a high-performance serving engine with vLLM and created a full-stack application, demonstrating my ability to take a model from concept to a user-facing product.
 
 ---
 
-### 🤖 AI/ML Focus
+### 🛠️ My Tech Stack
 
-- AI for web: Vision, search, recommendations, and automation
-- Real-world impact: From e-commerce to education, using AI to solve meaningful problems
-- Fast iteration: Ship, measure, and improve—always with users in mind
+Here are the technologies I'm proficient in, from core languages to specialized MLOps tools:
 
----
-
-### 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="38%">
-  <!-- Replace with a real screenshot from your repo -->
-  <img src="https://raw.githubusercontent.com/empty/placeholder/main/banner.png" alt="AI Web Assistant" />
-</td>
-<td>
-  <b>AI Web Assistant</b> — Smart, context-aware chatbot for websites and e-commerce.
-  <br/>
-  <sub>Stack:</sub> Next.js, FastAPI, Python, RAG, Stripe, Firebase, Vercel
-  <br/><br/>
-  <a href="https://github.com/puranikyashaswin">Repo</a>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="38%">
-  <img src="https://raw.githubusercontent.com/empty/placeholder/main/banner2.png" alt="Realtime Vision App" />
-</td>
-<td>
-  <b>Realtime Vision App</b> — Browser-based image recognition and search for interactive learning.
-  <br/>
-  <sub>Stack:</sub> React, PyTorch, WebAssembly, Cloudflare Workers
-  <br/><br/>
-  <a href="https://github.com/puranikyashaswin">Repo</a>
-</td>
-</tr>
-</table>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-008638?style=for-the-badge&logo=langchain&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-### 📊 GitHub Stats
+### 🏆 My Flagship Projects
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=puranikyashaswin&show_icons=true&theme=gruvbox&rank_icon=github" height="150" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=puranikyashaswin&layout=compact&theme=gruvbox" height="150" />
-</p>
+These projects represent the core of my skills and showcase my journey as an ML Engineer.
 
----
-
-### 🌱 What I'm Exploring Now
-
-- Building hands-on AI projects that help people learn, create, and connect
-- Open-source contributions in AI/ML and web automation
-- Collaborating with passionate builders to push the boundaries of what's possible
+| Project                                                   | Description                                                                          | Technologies Used                                     |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------- |
+| **[llm-serve-vllm](https://github.com/puranikyashaswin/llm-serve-vllm)** | A production-grade, high-performance LLM server with an OpenAI-compatible API. | `vLLM`, `FastAPI`, `Docker`, `Locust`, `PyTorch`          |
+| **[fullstack-rag-app](https://github.com/puranikyashaswin/fullstack-rag-app)** | An interactive web app to chat with documents, built with a RAG backend.   | `Streamlit`, `LangChain`, `FAISS`, `Docker`             |
+| **[rag-lab-with-evals](https://github.com/puranikyashaswin/rag-lab-with-evals)** | A RAG system with an automated evaluation suite to measure performance.     | `RAGAs`, `LangChain`, `FAISS`, `SentenceTransformers` |
+| **[transformer-from-scratch](https://github.com/puranikyashaswin/transformer-from-scratch)** | A pure PyTorch implementation of the "Attention Is All You Need" paper.         | `PyTorch`, `NumPy`, `Jupyter`                           |
+| **[mlops-california-housing](https://github.com/puranikyashaswin/mlops-template-ccds-mlflow)** | A professional template for reproducible ML projects with experiment tracking.    | `MLflow`, `Scikit-learn`, `GitHub Actions`, `Pytest`      |
 
 ---
 
-<p align="center"><i>Let's use AI to build a better, more human world—together.</i></p>
+### 📊 My GitHub Stats
+
+![Yashaswin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=puranikyashaswin&show_icons=true&theme=radical&hide_border=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=puranikyashaswin&layout=compact&theme=radical&hide_border=true)
+
+---
+
+### 📫 Connect with Me
+
+- **LinkedIn**: [https://www.linkedin.com/in/your-linkedin-profile/](https://www.linkedin.com/in/your-linkedin-profile/)
+- **Email**: puranikyashaswin@gmail.com
