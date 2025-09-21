@@ -1,10 +1,6 @@
 # Hello, I'm Yashaswin Puranik 👋
 
-<a href="https://x.com/yashu2X">
-  <img align="left" alt="Yashaswin's Twitter/X" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/x.svg" />
-</a>
-<a href="https://your-blog-or-website.com">
-  <img align="left" alt="Yashaswin's Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/rss.svg" style="margin-left: 8px;" />
+
 </a>
 <br />
 <br />
