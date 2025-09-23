@@ -54,7 +54,7 @@ These projects represent the key milestones in my journey, each demonstrating a 
 
 I'm always open to discussing new ideas, collaborating on ambitious projects, or exploring the future of AI. If you're passionate about building what's next, let's connect.
 
-- **Portfolio Website**: [yashaswin.dev](https://yashaswin.dev) *(<-- Don't forget to update this link when your site is live!)*
+
 - **Email**: `puranikyashaswinsharma@gmail.com`
 - **X (Twitter)**: [@yashaswinsharma](https://x.com/yashaswinsharma)
 - **Instagram**: [@yashaswin.sharma](https://www.instagram.com/yashaswin.sharma/)
