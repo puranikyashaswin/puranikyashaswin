@@ -26,7 +26,7 @@ Layer-level circuit discovery for indirect object identification on Llama-3.2-1B
 Automated causal circuit discovery on GPT-2 Small. Scores all 156 components via activation patching. A fixed 3-component circuit recovers 93.4% of the IOI logit difference on 8 prompts and 100.5% on 360 generated prompts (random 3 components: 7.5%). Edge search needs 42 instead of 11,298 patches per prompt (99.6% fewer). Found and fixed an abs() scoring bug that picked the wrong top component on 3 of 8 prompts.
 
 **[bare-metal-transformer](https://github.com/puranikyashaswin/bare-metal-transformer)**
-Transformer inference in pure C++. Zero ML dependencies, no PyTorch, no GGML. Flat KV cache via malloc, matmul with 16-wide ARM NEON FMA unrolling, i-k-j loop ordering. 125 tok/s vs PyTorch's single-threaded 113 tok/s on TinyStories-33M.
+Transformer inference in pure C++. Zero ML dependencies, no PyTorch, no GGML. Flat KV cache via malloc, matmul with 16-wide ARM NEON FMA unrolling, i-k-j loop ordering. 138 tok/s single-threaded on TinyStories-33M, 96% of PyTorch's 144 tok/s.
 
 **[gqa-inference-engine](https://github.com/puranikyashaswin/gqa-inference-engine)**
 From-scratch replication of Grouped Query Attention (arXiv:2305.13245) with KV caching, zero use of `nn.MultiheadAttention`. Natively resolves causal mask shape mismatches during cached decoding. 4x KV cache footprint reduction (1024 KiB to 256 KiB) and 3.3x to 5.6x faster cached decoding for one attention layer on CPU.
