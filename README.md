@@ -1,4 +1,4 @@
-# Puranik Yashaswin Sharma
+# Yashaswin Puranik Sharma
 
 A model behaving correctly is not the same claim as a model being aligned. One is 
 observed, the other is inferred, and most of what passes for interpretability 
