@@ -1,43 +1,25 @@
-# Yashaswin Puranik Sharma
+<p align="center"><a href="https://yashaswinsharma.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" width="846" alt="Yashaswin Puranik Sharma. Systems from the kernel up, and a probe that reads them. A drawing of six thin plates floating one above the other, from the bottom up: kernels, tensors, autograd, attention, model, and on top the residual stream, the only plate in colour. Small points of light rise through the plates. A thin probe needle rests in the residual stream and a short read-out trace draws beside it."></picture></a></p>
 
-A model behaving correctly is not the same claim as a model being aligned. One is 
-observed, the other is inferred, and most of what passes for interpretability 
-collapses that distinction. I work on not collapsing it: finding the actual 
-computational structure behind a behavior, and verifying it rather than trusting it.
+<p align="center">I'm a CS undergraduate at Woxsen University in Hyderabad. I build ML systems from the lowest layer up, and I test what can be read from a model's activations.</p>
 
-The same instinct shows up as systems work. I don't fully trust an abstraction I 
-haven't implemented myself, so a fair amount of what's below is built from the 
-metal up, not because it's efficient, but because it's the only way to know a 
-number is real.
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg"><img src="assets/now-light.svg" width="130" alt="Now"></picture><br>
+<a href="https://github.com/puranikyashaswin/ferrotensor"><b>ferrotensor</b></a>&ensp;LoRA fine-tuning in Rust, no CUDA<br>
+<a href="https://github.com/puranikyashaswin/hackprobe"><b>hackprobe</b></a>&ensp;do activations warn of test-gaming before the text? No.</p>
 
-CS undergrad @ Woxsen University · 5 merged PRs: [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens), [SAELens](https://github.com/decoderesearch/SAELens), [n8n](https://github.com/n8n-io/n8n)
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/research-dark.svg"><img src="assets/research-light.svg" width="200" alt="Research"></picture><br>
+<a href="https://github.com/puranikyashaswin/transfer_mech"><b>transfer_mech</b></a>&ensp;one injected vector between code models: no<br>
+<a href="https://github.com/puranikyashaswin/AutoCircuit"><b>AutoCircuit</b></a>&ensp;IOI in GPT&#8209;2 Small, caveat: layer 0<br>
+<a href="https://github.com/puranikyashaswin/ioi-circuit-llama"><b>ioi-circuit-llama</b></a>&ensp;layer 0 is mostly the input token<br>
+<a href="https://github.com/puranikyashaswin/gpt2-hallucination-probe"><b>gpt2-hallucination-probe</b></a>&ensp;linear probe on GPT&#8209;2: inconclusive</p>
 
-### Research and evaluation
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/systems-dark.svg"><img src="assets/systems-light.svg" width="200" alt="Systems"></picture><br>
+<a href="https://github.com/puranikyashaswin/gqa-inference-engine"><b>gqa-inference-engine</b></a>&ensp;grouped-query attention, 4x smaller KV cache<br>
+<a href="https://github.com/puranikyashaswin/bare-metal-transformer"><b>bare-metal-transformer</b></a>&ensp;C++ inference with ARM NEON kernels<br>
+<a href="https://github.com/puranikyashaswin/Reex-1"><b>Reex-1</b></a>&ensp;116M decoder, trained from scratch</p>
 
-| Project | Question | Result |
-|---|---|---|
-| [transfer_mech](https://github.com/puranikyashaswin/transfer_mech) | Does one injected activation vector carry program-repair information between code models? | No. On 215 held-out Java bugs the trained adapter did worse than no intervention: 51.6% vs 63.7%, p = 0.0013 |
-| [AutoCircuit](https://github.com/puranikyashaswin/AutoCircuit) | Which GPT-2 Small components carry the IOI task? | A fixed 3-component circuit recovers 93.4% of the logit difference on 8 prompts (random 3: 2.7%) and 100.5% on 360 generated prompts (random 3: 7.5%) |
-| [gpt2-hallucination-probe](https://github.com/puranikyashaswin/gpt2-hallucination-probe) | Can a linear probe on GPT-2's residual stream detect hallucination-prone prompts? | Inconclusive. Pair-held-out AUROC 0.67, 95% CI 0.49 to 0.87; the 0.616 peak is not significant after layer selection |
-| [ioi-circuit-llama](https://github.com/puranikyashaswin/ioi-circuit-llama) | Does a layer-level IOI circuit exist in Llama-3.2-1B? | Layers [0, 9] reach 1.063 faithfulness but do not beat their own random masks (p = 0.09 to 0.18) |
+<p align="center">merged into
+TransformerLens (<a href="https://github.com/TransformerLensOrg/TransformerLens/pull/1479">#1479</a>, <a href="https://github.com/TransformerLensOrg/TransformerLens/pull/1162">#1162</a>),
+SAELens (<a href="https://github.com/decoderesearch/SAELens/pull/627">#627</a>, <a href="https://github.com/decoderesearch/SAELens/pull/628">#628</a>),
+n8n (<a href="https://github.com/n8n-io/n8n/pull/25105">#25105</a>)</p>
 
-Every transfer_mech number is recomputed from the raw logs by `make verify`, and CI runs it on every push.
-
-### Systems
-
-| Project | Result |
-|---|---|
-| [gqa-inference-engine](https://github.com/puranikyashaswin/gqa-inference-engine) | Grouped-query attention from scratch, matches torch SDPA to 3e-7; 4x smaller KV cache and 3.3x to 5.6x faster cached decoding for one attention layer on CPU |
-| [bare-metal-transformer](https://github.com/puranikyashaswin/bare-metal-transformer) | Transformer inference in pure C++ with ARM NEON kernels; 138 tok/s single-threaded on TinyStories-33M, 96% of PyTorch's 144 tok/s |
-| [Reex-1](https://github.com/puranikyashaswin/Reex-1) | 116M-parameter decoder pretrained on about 1.31B tokens and chat-tuned from scratch |
-
-### Merged upstream
-
-- [TransformerLens #1479](https://github.com/TransformerLensOrg/TransformerLens/pull/1479): TransformerBridge adapter for BD3LM, with logit parity against the Hugging Face model confirmed block by block
-- [TransformerLens #1162](https://github.com/TransformerLensOrg/TransformerLens/pull/1162): TinyStories models trimmed to their real 512-token context
-- [SAELens #627](https://github.com/decoderesearch/SAELens/pull/627): clear error when context size exceeds training tokens · [#628](https://github.com/decoderesearch/SAELens/pull/628): nested progress bars in Jupyter
-- [n8n #25105](https://github.com/n8n-io/n8n/pull/25105): Miro OAuth2 scope field made visible
-
-### Stack
-
-![Python](https://img.shields.io/badge/Python-30363d?style=flat-square) ![PyTorch](https://img.shields.io/badge/PyTorch-30363d?style=flat-square) ![C++](https://img.shields.io/badge/C++-30363d?style=flat-square) ![Java](https://img.shields.io/badge/Java-30363d?style=flat-square) ![TransformerLens](https://img.shields.io/badge/TransformerLens-30363d?style=flat-square) ![SAELens](https://img.shields.io/badge/SAELens-30363d?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-30363d?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-30363d?style=flat-square) ![JUnit](https://img.shields.io/badge/JUnit-30363d?style=flat-square) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-30363d?style=flat-square)
+<p align="center"><a href="https://yashaswinsharma.vercel.app/">website</a> &middot; <a href="https://x.com/yashaswinsharma">X</a> &middot; <a href="https://www.linkedin.com/in/puranikyashaswin">LinkedIn</a> &middot; <a href="mailto:puranikyashaswinsharma@gmail.com">email</a></p>
