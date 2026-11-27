@@ -18,6 +18,7 @@
 <a href="https://github.com/puranikyashaswin/Reex-1"><b>Reex-1</b></a>&ensp;116M decoder, trained from scratch</p>
 
 <p align="center">merged into
+Rust (<a href="https://github.com/rust-lang/rust/pull/166196">#166196</a>),
 TransformerLens (<a href="https://github.com/TransformerLensOrg/TransformerLens/pull/1479">#1479</a>, <a href="https://github.com/TransformerLensOrg/TransformerLens/pull/1162">#1162</a>),
 SAELens (<a href="https://github.com/decoderesearch/SAELens/pull/627">#627</a>, <a href="https://github.com/decoderesearch/SAELens/pull/628">#628</a>),
 n8n (<a href="https://github.com/n8n-io/n8n/pull/25105">#25105</a>)</p>
